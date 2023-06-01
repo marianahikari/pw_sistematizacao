@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carlito&display=swap');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    max-width: 2500px;
+}
+
+body{
+    font-size: 100%;
+    background-color: rgb(241, 251, 255);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 40px;
+}
+
+.menu-item{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(231, 151, 199);
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.menu-item:hover{
+    color: rgb(204, 95, 161);
+}
+
+.conteudo-total {
+    margin-bottom: 60px;
+    border-top: 1px solid rgb(170, 181, 204);
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.conteudo-principal-titulo{
+    font-family: 'Carlito', sans-serif;
+    color: rgb(105, 82, 68);
+    font-weight: 50;
+    font-size: 70px;
+}
+
+.conteudo-principal-paragrafo{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(133, 106, 89);
+    font-weight: 800;
+    font-size: 20px;
+    gap: 2px;
+    }
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+
+.conteudo-titulo{
+    border-top: 1px solid rgb(184, 196, 221);
+    padding-top: 55px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(133, 106, 89);
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.conteudo-paragrafo{
+    font-family: 'Carlito', sans-serif;
+    color: rgb(155, 166, 194);
+    font-weight: 50;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 2px;;
+}
+
+.titulo-servico{    
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(209, 121, 174);
+    font-weight: 800;
+    font-size: 17px;
+    margin-bottom: 0%;
+}
+
+.conteudo-equipe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(209, 121, 174);
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.descricao-equipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contato{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(209, 121, 174);
+    font-weight: 800;
+    font-size: 15px;   
+}
+
+.conteudo-contato-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(133, 106, 89);
+    font-weight: 800;
+    font-size: 16px;
+}
+.conteudo-contato-form-input{
+    margin-bottom: 20px;
+    width: 470px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.conteudo-titulo-2{
+    padding-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(95, 128, 179);
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.botao{
+    background-color: rgb(128, 117, 103);
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(34, 31, 30, 0.308);
+    border-radius: 10px;
+}
+
+.botao:hover{
+    background-color: rgb(155, 140, 128);}
+
+.rodape{
+    margin-bottom: 30px;
+    border-top: 1px solid rgb(170, 181, 204);
+    padding-top: 38px;
+    font-family: 'Carlito', sans-serif;
+    color: rgb(173, 191, 212);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
